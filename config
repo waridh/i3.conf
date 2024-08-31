@@ -16,6 +16,10 @@ set $term wezterm
 # is used in the bar {} block below.
 font pango:IntoneMono Nerd Font 10
 
+# Setting the default top title bar to nothing
+default_border pixel 2
+default_floating_border pixel 2
+
 # Setting up background wallpaper
 # exec --no-startup-id feh --no-fehbg --bg-fill '/home/waridh/Pictures/Wallpapers/ludiclocktower.png'
 exec_always nitrogen --restore

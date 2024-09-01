@@ -27,6 +27,7 @@ hide_edge_borders smart
 exec_always nitrogen --restore
 exec_always picom -f
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always blueman-applet
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
